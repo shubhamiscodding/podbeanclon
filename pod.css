@@ -1,0 +1,16 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.vedio{
+    position: relative;
+    z-index: -1;
+}
+.w-100 {
+    width: 100% !important;
+}
+.nav{
+    position: absolute;
+}
