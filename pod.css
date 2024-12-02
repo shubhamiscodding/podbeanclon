@@ -78,7 +78,7 @@ ul button{
     color: rgb(167, 255, 201);
 }
 .vedio-text h1{
-    font-size: 85px;
+    font-size: 82px;
 }
 .vedio-text p{
     font-size: 18px;
@@ -86,7 +86,7 @@ ul button{
 .vedio-text button{
     font-size: 25px;
     background-color: #83BF11;
-    height: 100px;
+    height: 80px;
     border: 0;
     border-radius: 55px;
 }
@@ -98,19 +98,36 @@ ul button{
     opacity: 0.95;
 }
 .detail-option{
-    margin-top: 155px;
+    margin-top: 120px;
     display: grid;
     grid-template-columns: 100%;
 }
 .detail1{
     text-align: center;
 }
-.detail1 h2{
-    font-size: 45px;
+.detail1 h1{
+    font-size: 55px;
 }
 .detail1 p{
     font-size: 22px;
 }
 .detail2{
-
+    display: grid;
+    grid-template-columns: 50% 50%;  
+}
+.detail2 h1{
+    font-size: 50px;
+}
+.detail2 p{
+    font-size: 24px;
+    opacity: 0.67;
+}
+.detail2 b{
+    font-weight: 200;
+    font-size: 22px;
+    text-decoration: underline;
+}
+.detail2-1{
+    opacity: 0.85;
+    margin-top: 22%;
 }
