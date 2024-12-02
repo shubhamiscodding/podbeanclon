@@ -4,17 +4,31 @@ body{
     margin: 0;
     padding: 0;
 }
+.mainpage{
+    color: black;
+    height: 100%;
+}
 .nav{
-    position: absolute;
+    position: static;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    color: rgb(167, 255, 201);
+    
+}
+/* .nav{
+    position: static;
     display: flex;
     text-align: center;
     font-size: 18px;
     width: 100%;
     color: aliceblue;
-    background-color: #333333;
-}
-.nav img{
-    padding-top: 5px;
+     background-color: #333333; 
+} */
+     .nav img{
+    padding-top: 4px;
     padding-left: 10px;
     height: 42px;
 }
@@ -22,35 +36,81 @@ body{
     list-style: none;
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 7%;
     padding-top: 5px;
 }
 .search{
     display: flex;
     padding-left: 15px;
-    background-color: #333333;
     border-radius: 20px;
     border: 2px solid black;
     height: 23px;
-    margin-top: 19px;
-    margin-left: 15px;
+    margin-top: 10px;
+    margin-left: 15%;
     align-items: center;
     width: 120px;
-    height: 30px;
+    height: 35px;
 }
 .text{
-    background-color:  #333333;
+    background: none;
     border: 0;
     padding-left: 2px;
-   width: 80px;
+    width: 70px;
 }
 ul button{
     background-color: #82AE22;
-    height: 30px;
+    color: rgb(255, 255, 255);
+    height: 35px;
+    width: 105px;
     border: 0px;
     border-radius: 5px;
 }
 .left-corner{
     align-items: center;
-    margin-left: 13%;
+    margin-left: 250px ;
+}
+.vedio-text{
+    margin-top: 10%;
+    margin-left: 8%;
+}
+.textcenter{
+    width: 810px;
+    color: rgb(167, 255, 201);
+}
+.vedio-text h1{
+    font-size: 85px;
+}
+.vedio-text p{
+    font-size: 18px;
+}
+.vedio-text button{
+    font-size: 25px;
+    background-color: #83BF11;
+    height: 100px;
+    border: 0;
+    border-radius: 55px;
+}
+.vedio{
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    opacity: 0.95;
+}
+.detail-option{
+    margin-top: 155px;
+    display: grid;
+    grid-template-columns: 100%;
+}
+.detail1{
+    text-align: center;
+}
+.detail1 h2{
+    font-size: 45px;
+}
+.detail1 p{
+    font-size: 22px;
+}
+.detail2{
+
 }
