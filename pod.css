@@ -293,3 +293,21 @@ ul button{
 .podappgrid1{
     margin-top: 10%;
 }
+.podcast-dowload{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.podcast-dowload h1{
+    font-size: 45px;
+    margin-top: 65px;
+    margin-left: 4%;
+}
+.podcast-dowload .imgs{
+    margin-left: 4%;
+}
+.podcast-dowload .discription{
+    width: 400px;
+    margin-left: 4%;
+}
