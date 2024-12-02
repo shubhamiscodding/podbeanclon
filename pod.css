@@ -1,4 +1,5 @@
 body{
+    height: 100vh;
     width: 100%;
     overflow-x: hidden;
     margin: 0;
@@ -7,19 +8,24 @@ body{
 }
 .mainpage{
     color: black;
-    height: 100%;
+    height: 100vh;
 }
 .nav{
-    position: static;
+    position:fixed;
+    top: 0; /* Aligning to the top */
+    left: 0; /* Aligning to the left */
+    right: 0; /* Stretching to the right */
+    z-index: 10; /* Ensuring it is above the video */
     display: flex;
     align-items: center;
     text-align: center;
     font-size: 18px;
     width: 100%;
     color: rgb(167, 255, 201);
+    margin-top: 0;
     
 }
-/* .nav{
+/* .nav-active{
     position: static;
     display: flex;
     text-align: center;
@@ -92,6 +98,7 @@ ul button{
     border-radius: 55px;
 }
 .vedio{
+    top: 0;
     right: 0;
     position: absolute;
     z-index: -1;
@@ -133,6 +140,9 @@ ul button{
     opacity: 0.85;
     margin-top: 22%;
 }
+.detail2 img{
+    margin-left: 8%;
+}
 .detail3{
     display: grid;
     grid-template-columns: 50% 50%;  
@@ -154,4 +164,77 @@ ul button{
     opacity: 0.85;
     margin-top: 22%;
     margin-left: 8%;
+}
+.detail4{
+    display: grid;
+    grid-template-columns: 50% 50%;  
+}
+.detail4 h1{
+    font-size: 50px;
+}
+.detail4 p{
+    width: 600px;
+    font-size: 20px;
+    opacity: 0.67;
+}
+.detail4 b{
+    font-weight: 200;
+    font-size: 22px;
+    text-decoration: underline;
+}
+.detail4-1{
+    opacity: 0.85;
+    margin-top: 20%;
+}
+.detail4 img{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.AI{
+    display: flex;
+    flex-direction: column;
+    margin-top: 185px;
+    text-align: center;
+    align-items: center;
+
+}
+.AI1 h1{
+    font-size: 45px;
+}
+.AI2 {
+    width: 1000px;
+    opacity: 0.8;
+}
+.AI3 b{
+    padding-top: 15px;
+    font-weight: 200;
+    font-size: 22px;
+    text-decoration: underline;
+}
+.AI4{
+    margin-top: 20px;
+}
+.podcast-website{
+    display: flex;
+    flex-direction: column;
+    margin-top: 135px;
+    background-color: #1D1B25;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.podcast-website h1{
+    font-size: 50px;
+    margin-top: 85px;
+    width: 850px;
+}
+.podcast-website p{
+    width: 1100px;
+    font-weight: 300;
+}
+.podcast-website img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: inherit;
+    height: 1100px;
 }
