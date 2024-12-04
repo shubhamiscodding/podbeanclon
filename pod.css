@@ -25,15 +25,9 @@ body{
     margin-top: 0;
     
 }
-/* .nav-active{
-    position: static;
-    display: flex;
-    text-align: center;
-    font-size: 18px;
-    width: 100%;
-    color: aliceblue;
+.active{
      background-color: #333333; 
-} */
+}
      .nav img{
     padding-top: 4px;
     padding-left: 10px;
@@ -310,4 +304,32 @@ ul button{
 .podcast-dowload .discription{
     width: 400px;
     margin-left: 4%;
+}
+.appfun{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.appfun img{
+    width: 450px;
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.appfun .txt{
+    width: 600px;
+}
+.appfun .txt h1{
+    font-size: 45px;
+}
+.appfun .txt p{
+    font-size: 20px;
+    opacity: 0.8;
+}
+.appfun .txt b{
+    font-weight: 200;
+    font-size: 22px;
+    text-decoration: underline; 
 }
