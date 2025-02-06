@@ -335,6 +335,7 @@ ul button{
     text-decoration: underline; 
 }
 .scrollimg{
+    margin-top: 130px;
     background-image: url(https://pbcdn1.podbean.com/fs1/site/www-v2/images/h-enterprise.jpg);
     background-position: center;
     background-size: cover;
@@ -358,3 +359,97 @@ ul button{
     text-decoration: underline;
     color: #a6ff00;
 }
+.comments{
+    background-color: #1D1B25;
+    color: #fff;
+    text-align: center;
+}
+.cssheading {
+    font-family: monospace;
+    margin-top: 0;
+    padding-top: 110px;
+    font-size: 40px;
+}
+.activate{
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid; 
+    animation: 
+        typing 2s steps(48) forwards, 
+        cursor .4s step-end infinite alternate;
+}
+@keyframes cursor {
+    50% { border-color: transparent; }
+}
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+.numbers{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.numbers h1{
+    font-size: 45px;
+}
+footer {
+    padding: 20px 0;
+    background-color: #111111;
+    color: #ccc;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-section h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+    color: #ffffff;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #ccc;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
+
+

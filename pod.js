@@ -9,3 +9,18 @@ nav.addEventListener("mouseleave",()=>{
 nav.addEventListener("scroll",()=>{
     nav.classList.add("active");
 })
+let cssheading = document.querySelector(".cssheading");
+
+ 
+    let observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {  
+            if (entry.isIntersecting) {
+                cssheading.classList.add("activate");
+            } else {
+                cssheading.classList.remove("activate");
+            }
+        });
+    });
+
+    observer.observe(cssheading);
+
