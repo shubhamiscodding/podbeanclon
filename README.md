@@ -16,7 +16,7 @@ A simple Podbean clone built using HTML, CSS, and JavaScript.
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/podbean-clone.git
+   git clone [https://github.com/your-username/podbean-clone.git](https://github.com/shubhamiscodding/podbeanclon.git)
    ```
 2. Navigate to the project folder:
    ```sh
